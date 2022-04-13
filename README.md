@@ -22,14 +22,14 @@ The French leader in online digital education for over 20 years, partnership wit
   <li>Development of a digital solution</li>
 </ul>
 
-**00  Training assessment - Exercice Ruby - Google_Web - Surf_School : [Project_00]()** (100%)
+**00  Training - Exercice Ruby - Google_Web - Surf_School : [Project_00]()** (100%)
 
-**01  Training assessment - Creating a website with HTML, CSS and the Bootstrap Framework : [Project_01](https://github.com/axelbgds/DAW_Studi/tree/master/01_Website)** (100%)
+**01  Training - Website with HTML, CSS and Bootstrap : [Project_01](https://github.com/axelbgds/DAW_Studi/tree/master/01_Website)** (100%)
 
-**02  Training assessment - Boosting your websites with Javascript : [Project_02](https://github.com/axelbgds/DAW_Studi/tree/master/02_Boosting_Website_JS)** (100%)
+**02  Training - Boosting your websites with Javascript : [Project_02](https://github.com/axelbgds/DAW_Studi/tree/master/02_Boosting_Website_JS)** (100%)
 
-**03  Training assessment - Creating and administering a database : [Project_03]** (Not yet)
+**03  Training - Creating and administering a database : [Project_03]** (Not yet)
 
-**04  Practice Test - Creating a Web Application : [Project_04]** (Not yet)
+**04  Test - Creating a Web Application : [Project_04]** (Not yet)
 
-**05  Practice Test - Designing a responsive web application : [Project_05]** (Not yet)
+**05  Test - Designing a responsive web application : [Project_05]** (Not yet)
