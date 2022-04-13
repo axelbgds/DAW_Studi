@@ -4,7 +4,7 @@
 	Bachelor DAW <a href="https://www.studi.com/en"> Studi</a>
 </h1>
 
-<p align="right">
+<p align="center">
   <img src="https://www.studyrama.com/pro/sites/default/files/articles/studi.png" alt="Logo Studi" width="700" />
 </p>
 
