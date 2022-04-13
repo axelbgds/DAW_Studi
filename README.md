@@ -11,7 +11,7 @@
 ## Who are we ?
 
 <a href="https://www.studi.com/fr/formation/developpement/bachelor-developpeur-dapplication-web-0"> Stdui DAW</a>
-Studi, the French leader in online digital education for over 20 years, partnership with many school in different sectors Studi is the HQ.
+The French leader in online digital education for over 20 years, partnership with many school in different sectors Studi is the HQ.
 
 ## Bachelor DAW (Dev App Web)
 
