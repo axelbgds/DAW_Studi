@@ -22,9 +22,9 @@ The French leader in online digital education for over 20 years, partnership wit
   <li>Development of a digital solution</li>
 </ul>
 
-**01  Training assessment - Creating a website with HTML, CSS and the Bootstrap Framework** (100%)
+**01  Training assessment - Creating a website with HTML, CSS and the Bootstrap Framework (https://github.com/axelbgds/DAW_Studi/tree/master/01_Website)** (100%)
 
-**02  Training assessment - Boosting your websites with Javascript** (100%)
+**02  Training assessment - Boosting your websites with Javascript (https://github.com/axelbgds/DAW_Studi/tree/master/02_Boosting_Website_JS) ** (100%)
 
 **03  Training assessment - Creating and administering a database** (Not yet)
 
