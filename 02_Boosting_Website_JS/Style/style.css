@@ -1,0 +1,175 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+h2,
+h3 {
+  font-size: medium;
+}
+
+/* header - title and rules */
+header {
+  background-image: url(../Photos/htmlcssbackground.svg),
+    linear-gradient(180deg, #ff661a, #ffd81a 80%);
+}
+
+header h1 {
+  margin-top: 12px;
+  padding: 12px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 15px lightyellow;
+}
+
+#header-parent {
+  width: 80%;
+  border: solid 5px white;
+  margin: 10px 10px;
+}
+
+#title-rules {
+  border: none;
+  font-weight: bold;
+  padding: 8px;
+  background-color: white;
+  width: 100%;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+#title-rules:hover {
+  background: lightyellow;
+}
+
+#span-rules {
+  padding: 0px 10px 10px 10px;
+  letter-spacing: 2px;
+}
+
+#rules {
+  padding: 25px;
+  background: #fff;
+  line-height: 1.7;
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+  display: none;
+}
+
+#rules span {
+  font-weight: bold;
+  color: #ff661a;
+}
+
+.container-global {
+  position: relative;
+  max-width: 1500px;
+  margin: auto;
+  height: auto;
+}
+
+/* Main - interface game */
+
+.player {
+  overflow: auto;
+  display: inline-flex;
+  width: 280px;
+  height: 280px;
+  border: 1px solid #ffbf9f;
+  border-radius: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 5% 0% 2% 5%;
+  padding: 3px;
+}
+
+img {
+  display: block;
+  max-width: 250px;
+  max-height: 150px;
+  width: auto;
+  height: auto;
+}
+
+.config-box {
+  display: block;
+  margin: 20px 0% 0% 15%;
+}
+
+.on {
+  font-size: medium;
+  padding: 10px 5px;
+  margin: 10px;
+  margin-left: 3px;
+  width: 200px;
+  height: auto;
+}
+
+.dice {
+  display: inline-block;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+/*Footer - credits */
+
+footer {
+  background-color: lightyellow;
+  width: 100%;
+  min-height: 10rm;
+  background-image: url(../Photos/htmlcssbackground.svg),
+    linear-gradient(180deg, #ffd81a, #ff661a 80%);
+}
+
+#footer-parent {
+  width: 80%;
+  margin: 15px;
+  border: solid 5px white;
+}
+
+#credits {
+  border: none;
+  font-weight: bold;
+  padding: 8px;
+  background-color: white;
+  width: 100%;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+#credits:hover {
+  background: #ff661a 80%;
+  color: white;
+}
+
+#footer-child {
+  display: none;
+}
+
+#credits-list {
+  padding: 25px;
+  background: #fff;
+  line-height: 1.7;
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+}
+
+footer p {
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+footer a {
+  text-align: center;
+  color: black;
+}
+
+footer a:hover {
+  color: #ff661a;
+  font-weight: bold;
+}

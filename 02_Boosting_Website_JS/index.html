@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <title>Objectif 100</title>
+    <meta
+      name="Description"
+      content="10 min 100 modération est un jeu de dé où peuvent s'affronter plusieurs joueurs"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="Style/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="Style/style.css" />
+    <link rel="stylesheet" media="only screen and (max-width:500px)" href="Style/mobile.css" />
+  </head>
+ 
+  <body>
+    
+    <!-- Navbar -->
+    <header class="d-flex flex-column justify-content-center align-items-center">
+      <h1>100 modération</h1>
+       <div id="header-parent">
+        <button id="title-rules" class="text-center">
+          <span id="span-rules">Règles du jeu</span>
+        </button>
+        <div id="header-child">
+          <div id="rules" style="display: none"> 
+            <p>
+              Participants : 4 joueurs. <br>Le premier joueur lance les dés, en fonction du résultat le joueur peut : <br>
+              relancer les dés, décompter le score de ces adversaires ou augmenter son score intermédiaire pour le valider au bon moment...
+            </p>
+
+            <p>
+              <ol class="list-group title-list"> 
+                <li> Résultat des dés : Une paire 1/1 - 3/3 - 5/5 = Décompte le résultat acquis sur l'adversaire choisi.</li>
+                <li> Résultat des dés : Une paire 2/2 - 4/4 et 6/6 = Ajout du résultat sur votre score intermédiaire.</li>
+                <li> Si les joueurs n'ont pas de résultat le décompte ne sera pas activé.</li> 
+                <li> A tout moment le joueur peut sécuriser ses points en cliquant sur : Sécuriser (il perdra la main).</li>
+                <li> Le vainqueur : premier joueur à atteindre un score de <span>100</span>.</strong></li>
+                <li> Pour les plus expérimentés : Augmenter la gorgée par un verre ou une bouteille...</li>
+                <ul> <strong>Comment perdre la main ?</strong>
+                  <li>Si plus de 3 paires sont réalisés le joueur perd la main.</li>
+                  <li>Résultat de la somme des deux dés = 3 / 5 / 7 le joueur perd la main.</li>
+                </ul>
+                <ul> <strong>Déconseillé au -18 ans : L'alcool est à boire avec </strong> <span>Modération</span>
+                  <li>Toute les minutes le ou les premier(s) et  le ou les dernier(s) joueur(s) boivent une gorgée <em>ENJOY !</em></li>
+                </ul>  
+              </ol>
+            </p>
+            <p><em>L’abus d’alcool est dangereux pour la santé.</em></p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Game element  -->
+    <main class="container-global">
+
+      <div class="box-player">
+        <!-- Config Box -->
+        <div class="config-box" id="main-1">
+          <button id="new-game" class="on">Nouvelle partie</button>
+          <button id="mute"> &#128266;</button> 
+          <button id="throw" class="on">Lancer le dé</button>
+          <button id="hold" class="on">Sécuriser</button>
+          <img class="dice" id="first-dice-image" src="Photos/face-1.png" alt="dé">
+          <img class="dice" id="second-dice-image" src="Photos/face-1.png" alt="dé">
+        </div>
+          
+        <div class="container-player">
+          <!-- Box player 1, img format = 300x300 -->
+          <div class="player" id="main-2">
+            <img class="img-1" src="Photos/toro.png" alt="logo_toro"> 
+            <div id="player-1">
+              <h2 class="player-size" id="player-name1">Joueur 1</h2>
+              <h3 class="current">Score intermédiaire</h3>
+              <p class="score-current">0</p>
+              <div class="div-score-global">
+                <h3 class="global">Score acquis</h3>
+                <p class="score-global">0</p>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Box player 2 -->
+          <div class="player" id="main-3"> 
+            <img class="img-2" src="Photos/aigle.png" alt="logo_aigle">
+            <div id="player-2">
+              <h2 class="player-size" id="player-name2">Joueur 2</h2>
+              <h3 class="current">Score intermédiaire</h3>
+              <p class="score-current">0</p>
+              <div class="div-score-global">
+                <h3 class="global">Score acquis</h3>
+                <p class="score-global">0</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Box player 3 -->
+          <div class="player" id="main-4"> 
+            <img class="img-3" src="Photos/dragon.png" alt="logo_dragon">
+            <div id="player-3">
+              <h2 class="player-size" id="player-name3">Joueur 3</h2>
+              <h3 class="current">Score intermédiaire</h3>
+              <p class="score-current">0</p>
+              <div class="div-score-global">
+                <h3 class="global">Score acquis</h3>
+                <p class="score-global">0</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Box player 4 -->
+          <div class="player" id="main-5"> 
+            <img class="img-4" src="Photos/loup.png" alt="logo_loup">
+            <div id="player-4">
+              <h2 class="player-size" id="player-name4">Joueur 4</h2>
+              <h3 class="current">Score intermédiaire</h3>
+              <p class="score-current">0</p>
+              <div class="div-score-global">
+                <h3 class="global">Score acquis</h3>
+                <p class="score-global">0</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div> 
+    </main>
+
+    <!-- Footer -->
+    <footer class="d-flex flex-column justify-content-start align-items-center">
+      <div id="footer-parent" class="text-center">
+        <button id="credits"><span id="span-rules">100 modération Infos</span></button>
+        <div id="footer-child">
+          <div id="credits-list" class="d-flex flex-column justify-content-center align-items-center">
+            <p>Sons &#128266;</p>
+            <div class="footer-center">
+              <a href="https://freesound.org/people/brkdwnb3njo/sounds/554913/"> Lancer de dé</a> / <!-- game -->
+              <a href="https://freesound.org/people/Deathscyp/sounds/404049/">Sécuriser</a> / <!-- secure -->
+              <a href="https://freesound.org/people/Kastenfrosch/sounds/162465/">Perdu</a> / <!-- lost -->
+              <a href="https://freesound.org/people/EchoCinematics/sounds/131599/">Double</a> / <!-- dual -->
+              <a href="https://freesound.org/people/DexD73/sounds/583716/">Drink</a> /
+              <a href="https://freesound.org/people/LittleRobotSoundFactory/sounds/270402/">Gagné</a> / <!-- win -->
+              <a href="https://freesound.org/people/KorgMS2000B/sounds/54415/">Nouvelle partie</a> <!-- new -->
+            </div>
+            <br>
+            <p>Images</p>
+            <div class="footer-center">
+              <a href="https://pngtree.com/freepng/eagle-head-mascot-logo-for-esport-or-gaming-team_5595480.html">Aigle</a> /
+              <a href="https://pngtree.com/freepng/pitbull-mascot-logo-for-esport-team_5574788.html">Chien</a> /
+              <a href="https://pngtree.com/freepng/dragon-hungry-mascot-logo-orange_5997820.html">Dragon</a> /
+              <a href="https://pngtree.com/freepng/bull-head-mascot-logo_4343334.html">Toro</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/jquery-3.6.0.js"></script>
+    <script src="./js/dice.js"></script>
+    <script src="./js/game.js"></script>
+    <script src="./js/player.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

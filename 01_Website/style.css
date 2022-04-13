@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap");
+
+body {
+  font-family: "Verdana", sans-serif;
+  font-size: 16px;
+}
+
+/* Centrer cette élément */
+.navbar-brand {
+  min-width: 100px;
+  max-width: 200px;
+}
+h1 {
+  font-size: 1.8em;
+}
+h2 {
+  font-size: 1.6em;
+  color: rgba(124, 174, 221, 0.685);
+}
+h3 {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.btn {
+  background-color: rgba(124, 174, 221, 0.685);
+}
+footer {
+  background-color: rgba(124, 174, 221, 0.685);
+}
+.copyright {
+  color: rgb(3, 80, 22);
+}
+.logo {
+  width: 100px;
+}

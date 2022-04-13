@@ -1,0 +1,22 @@
+/* Main - interface mobile game */
+.config-box {
+  margin: 0;
+}
+
+.on {
+  display: inline-block;
+  font-size: smaller;
+  padding: 5px;
+  margin-left: 1vh;
+  width: auto;
+  height: auto;
+  border-radius: 30px;
+}
+
+.dice {
+  margin-left: 7vh;
+}
+
+.container-player {
+  margin-left: 2vh;
+}
