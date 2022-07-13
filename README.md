@@ -22,11 +22,11 @@ The French leader in online digital education for over 20 years, partnership wit
   <li>Development of a digital solution</li>
 </ul>
 
-**01  Training - Website with HTML, CSS and Bootstrap : [Project_01](https://github.com/axelbgds/DAW_Studi/tree/master/01_Website)** (100%)
+**01  Test - Website with HTML, CSS and Bootstrap : [Project_01](https://github.com/axelbgds/DAW_Studi/tree/master/01_Website)** (100%)
 
-**02  Training - Boosting your websites with Javascript : [Project_02](https://github.com/axelbgds/DAW_Studi/tree/master/02_Boosting_Website_JS)** (100%)
+**02  Test - Boosting your websites with Javascript : [Project_02](https://github.com/axelbgds/DAW_Studi/tree/master/02_Boosting_Website_JS)** (100%)
 
-**03  Training - Creating and administering a database : [Project_03](https://github.com/axelbgds/DAW_Studi/tree/master/03_BDD_Cinema)** (100%)
+**03  Test - Creating and administering a database : [Project_03](https://github.com/axelbgds/DAW_Studi/tree/master/03_BDD_Cinema)** (100%)
 
 **04  Test - Creating a Web Application : [Project_04]** (Not yet)
 
