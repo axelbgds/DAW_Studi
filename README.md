@@ -28,6 +28,8 @@ The French leader in online digital education for over 20 years, partnership wit
 
 **03  Test - Creating and administering a database : [Project_03](https://github.com/axelbgds/DAW_Studi/tree/master/03_BDD_Cinema)** (100%)
 
-**04  Test - Creating a Web Application : [Project_04]** (Not yet)
+**04  Test - Todo list : [Project_04]** (Not yet)
 
-**05  Test - Designing a responsive web application : [Project_05]** (Not yet)
+**05  Test - Creating a Web Application : [Project_05]** (Not yet)
+
+**06  Test - Designing a responsive web application : [Project_06]** (Not yet)
